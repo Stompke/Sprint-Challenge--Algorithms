@@ -29,5 +29,22 @@ c)
 
 
 ## Exercise II
+Curret floors are all of them
 
+runtime is O(log n)
 
+Step 1 - Go to the middle of the current floors:
+    Step 2 - drop the egg:
+        if it breaks:
+            and if this is the last floor to try:
+                this floor is the first floor the egg will start breaking on
+            Step 3a 
+            Make all the floors below you, your current floors
+            Go to step 1 with your new current floors
+
+        if it does not break:
+            and if this is the last floor to try:
+                the floor you tried before is the first floor the egg will break on
+            Step 3b - 
+            make all the floors above you, your current floors
+            go to step 1 with your new current floors
